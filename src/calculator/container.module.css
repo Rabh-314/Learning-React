@@ -1,0 +1,13 @@
+.container{
+    width:45%;
+    height:60vh;
+    border:2px solid rgb(224, 218, 218);
+    border-radius: 16px;
+    background-color: rgb(184, 202, 196);
+    margin:25px;
+    min-width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
