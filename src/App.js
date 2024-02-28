@@ -5,8 +5,10 @@ function App() {
   return (
     <div className={style.mainApp}>
 
-      <Calculator/>
-      <TodoMain/>
+      {/* <Calculator/>
+      <TodoMain/> */}
+
+      <h1>Hello Guys</h1>
 
     </div>
     
