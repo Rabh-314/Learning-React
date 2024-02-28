@@ -1,8 +1,15 @@
 import Calculator from "./calculator/Calculator";
-
+import TodoMain from "./todo/TodoMain";
+import style from './AppModule.module.css';
 function App() {
   return (
-    <Calculator/>
+    <div className={style.mainApp}>
+
+      <Calculator/>
+      <TodoMain/>
+
+    </div>
+    
   );
 }
 

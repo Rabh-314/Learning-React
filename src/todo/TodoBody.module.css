@@ -1,0 +1,41 @@
+.ulItem{
+    list-style-type: none;
+      padding: 0;
+      margin: 20px;
+}
+
+.liItem {
+    display: flex; 
+    margin-bottom: 10px; 
+  }
+
+  
+  .liDiv {
+    flex: 1; 
+    /* border: 1px solid #ccc;  */
+    padding: 10px;
+    box-sizing: border-box; 
+    font-weight:bolder;
+    font-size: 21px;
+  }
+
+
+  .buttonItem {
+    margin-left: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover state */
+  .buttonItem:hover {
+    background-color: #3498db;
+    color: #fff;
+  }

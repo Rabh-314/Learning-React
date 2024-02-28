@@ -7,7 +7,7 @@ export default function Calculator() {
 
     let [Todisplay, setTodisplay] = useState("");
     const handleOnClick = (button_val) => {
-
+        // console.log("clicked",button_val);
         if (button_val === 'Del') {
             setTodisplay("");
 
@@ -16,8 +16,13 @@ export default function Calculator() {
             setTodisplay(Todisplay.slice(0, -1))
 
         } else if (button_val === 'Ans') {
-            // eslint-disable-next-line
-            setTodisplay(eval(Todisplay)+'');
+            if (Todisplay===""){
+                alert("Enter Value");
+            }else{
+                // eslint-disable-next-line
+                setTodisplay(eval(Todisplay)+'');
+            }
+            
         }
         else {
             setTodisplay(Todisplay + button_val);

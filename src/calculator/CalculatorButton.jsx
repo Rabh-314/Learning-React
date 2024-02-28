@@ -16,7 +16,7 @@ function CalculatorButtons({handleClick}){
                     type="text"
                     key={i}
                     className={css.inputButtons}
-                    onClick={(Event)=>{handleClick(i)}}
+                    onClick={()=>{handleClick(i)}}
                 >{i}</button>    
             )}
         </div>

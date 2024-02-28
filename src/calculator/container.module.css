@@ -8,6 +8,10 @@
     min-width: 300px;
     padding: 15px;
     box-sizing: border-box;
-    
+    overflow: auto;
 }
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
 

@@ -6,6 +6,50 @@
     font-size: 16px;
     width: 95%;
   }
+
+/* For ToDo App */
+
+  .Div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+
+  .inputBoxToDo {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 35%;
+    margin-left: 10px;
+  }
+
+  .inputBoxToDo:focus {
+    outline: none;
+    border-color: #aaafb6; 
+    box-shadow: 0 0 5px rgba(108, 167, 230, 0.99); 
+  }
+
+  .submitBoxToDo {
+    padding: 10px 20px;
+    background-color: #afd0f4; 
+    color: #090909; 
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+ 
+  .submitBoxToDo:hover {
+    background-color: #7c94ad; 
+  }
+
+
+
+
   
   
 
